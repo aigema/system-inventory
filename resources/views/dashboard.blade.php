@@ -12,7 +12,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h6 class="card-title mb-1">Total Items</h6>
-                                <h2 class="mb-0">1,234</h2>
+                                <h2 class="mb-0">0</h2>
                             </div>
                             <i class="bi bi-box-seam fs-1"></i>
                         </div>
@@ -25,7 +25,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h6 class="card-title mb-1">Value</h6>
-                                <h2 class="mb-0">$45,350</h2>
+                                <h2 class="mb-0">0</h2>
                             </div>
                             <i class="bi bi-currency-dollar fs-1"></i>
                         </div>
@@ -38,7 +38,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h6 class="card-title mb-1">Low Stock</h6>
-                                <h2 class="mb-0">28</h2>
+                                <h2 class="mb-0">0</h2>
                             </div>
                             <i class="bi bi-exclamation-triangle fs-1"></i>
                         </div>
@@ -113,7 +113,7 @@
                                         </form>
                                     </div>
                                 </td>
-                            </tr> 
+                            </tr>
                             @endforeach
                         </tbody>
                     </table>
@@ -122,5 +122,5 @@
             </div>
         </div>
     </div>
-    
+
 @endsection
