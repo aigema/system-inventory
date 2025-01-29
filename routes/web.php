@@ -11,3 +11,7 @@ Route::get('/edit-data/{id}', [DataController::class, 'editData'])->name('edit_d
 Route::delete('/delete-data/{id}', [DataController::class, 'deleteData'])->name('delete_data');
 Route::post('/send-data', [DataController::class, 'sendData'])->name('send_data');
 Route::put('/update-data/{id}', [DataController::class, 'updateData'])->name('update_data');
+
+Route::get('/halo', function() {
+    return 'Halo Guys, Aku Rakha';
+});
